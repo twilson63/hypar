@@ -7,7 +7,7 @@
 <main>
   <section class="hero min-h-screen bg-base-100">
     <div class="hero-content flex-col">
-      <h1 class="text-6xl">SVITEWND</h1>
+      <h1 class="text-8xl text-primary-content font-bold">⚡️HypAR⚡️</h1>
       <p>The Ultimate Permaweb Stack!</p>
     </div>
   </section>
