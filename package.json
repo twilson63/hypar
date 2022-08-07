@@ -1,15 +1,20 @@
 {
-  "name": "app",
+  "name": "hypar-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "arkb deploy dist --use-bundler https://node2.bundlr.network --wallet wallet.json",
+    "gen_wallet": "node scripts/wallet.js"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^1.0.0-next.30",
+    "@tailwindcss/typography": "^0.5.4",
+    "arkb": "^1.1.60",
+    "arweave": "^1.11.4",
     "autoprefixer": "^10.4.4",
     "daisyui": "^2.11.1",
     "postcss": "^8.4.12",

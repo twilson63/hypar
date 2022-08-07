@@ -6,6 +6,7 @@ import tailwindConfig from './tailwind.config.js'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '',
   plugins: [svelte()],
   server: {
     hmr: {
